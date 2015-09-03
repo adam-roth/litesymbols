@@ -64,6 +64,11 @@ The litesymbols script makes some assumptions about where it can find the debugg
 
 The script cannot symbolicate anything that it cannot locate debugging symbols for, or anything that isn't an iOS crash report.  It has only been tested against the 'armv7' and 'arm64' architectures, and is unlikely to work with crash reports from any other device architecture. 
 
+**_Wouldn't your script be more efficient if it did 'X'?_**
+Probably.  Bash is not a first language to me.  Or even a second or a third.  It's more like an option of last resort.  
+
+Much of the litesymbols script was cobbled together using suggestions from various references, those primarily being posts on stackoverflow.com.  I don't claim that it does anything optimally, elegantly, or even efficiently.  If you'd like to refactor it so that it does, by all means please do so and submit a pull request. 
+
 
 ### License
 
