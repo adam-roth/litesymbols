@@ -64,6 +64,13 @@ The litesymbols script makes some assumptions about where it can find the debugg
 
 The script cannot symbolicate anything that it cannot locate debugging symbols for, or anything that isn't an iOS crash report.  It has only been tested against the 'armv7' and 'arm64' architectures, and is unlikely to work with crash reports from any other device architecture. 
 
+**_What is 'litesymbols-dir.sh'?_**<br />
+That's a helper-script that will symbolicate all of the '.crash' files in a particular folder.  To use it, you just need to have 'litesymbols.sh' installed somewhere on your system PATH (for instance, '/usr/bin' will work).  Then you can use 'litesymbols-dir.sh' like:
+
+-_litesymbols-dir.sh ~/Builds/MyAwesomeApp/v1.30/MyAwesomeApp.app/MyAwesomeApp_-
+
+...which will symbolicate any '.crash' files in the current directory.  Useful if you've downloaded a pile of crashes, and want to process them all at once.
+
 **_Wouldn't your script be more efficient if it did 'X'?_**<br />
 Probably.  Bash is not a first language to me.  Or even a second or a third.  It's more like an option of last resort.  
 
