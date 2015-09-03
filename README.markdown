@@ -4,7 +4,9 @@
 
 ### About
 
-litesymbols is a relatively simple bash script that can be used to symbolicate the contents of an iOS crash report ('.crash' file).  It can be used as an alternative to Apple's official 'symbolicatecrash' script, for instance in cases where the latter script is nonfunctional.
+litesymbols is a relatively simple bash script that can be used to symbolicate the contents of an iOS crash report ('.crash' file).  
+
+It can be used as an alternative to Apple's official 'symbolicatecrash' script, for instance in cases where the latter script is nonfunctional.
 
 
 ### Getting Started
