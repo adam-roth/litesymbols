@@ -67,7 +67,7 @@ The script cannot symbolicate anything that it cannot locate debugging symbols f
 **_What is 'litesymbols-dir.sh'?_**<br />
 That's a helper-script that will symbolicate all of the '.crash' files in a particular folder.  To use it, you just need to have 'litesymbols.sh' installed somewhere on your system PATH (for instance, '/usr/bin' will work).  Then you can use 'litesymbols-dir.sh' like:
 
--_litesymbols-dir.sh ~/Builds/MyAwesomeApp/v1.30/MyAwesomeApp.app/MyAwesomeApp_-
+'_litesymbols-dir.sh ~/Builds/MyAwesomeApp/v1.30/MyAwesomeApp.app/MyAwesomeApp_'
 
 ...which will symbolicate any '.crash' files in the current directory.  Useful if you've downloaded a pile of crashes, and want to process them all at once.
 
