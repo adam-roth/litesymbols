@@ -13,7 +13,7 @@ It can be used as an alternative to Apple's official 'symbolicatecrash' script, 
 
 Just copy the 'litesymbols.sh' script to somewhere reasonable on your Mac (I recommend '/usr/bin' if you plan on using it often; though you can place the script anywhere you like) and ensure that it is readable and executable at least by your current user (run 'chmod +x /path/to/litesymbols.sh' if needed).
 
-That should be it.  However do note that the script assumes that your Xcode debuggin symbols are installed in the standard place ('~/Library/Developer/Xcode/iOS DeviceSupport/<OS_VERSION>/Symbols').  If you have changed this, then you'll need to modify the script appropriately before using it.
+That should be it.  However do note that the script assumes that your Xcode debugging symbols are installed in the standard place ('~/Library/Developer/Xcode/iOS DeviceSupport/<OS_VERSION>/Symbols').  If you have changed this, then you'll need to modify the script appropriately before using it.
 
 
 ### Usage
